@@ -1,0 +1,11 @@
+{
+  "name": "acorn-qml",
+  "version": "0.0.0",
+  "description": "QML plugin for acorn parser",
+  "main": "index.js",
+  "dependencies": {
+    "acorn": "^3.2.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
