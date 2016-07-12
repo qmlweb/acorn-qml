@@ -1,4 +1,8 @@
-const acorn = require('acorn');
+const qml = require('./plugins/qml');
+const qmljs = require('./plugins/qmljs');
 
-acorn.plugins.qml = require('./plugins/qml');
-acorn.plugins.qmljs = require('./plugins/qmljs');
+module.exports = function(acorn) {
+  acorn.plugins.qml = qml;
+  acorn.plugins.qmljs = qmljs;
+  return acorn;
+}

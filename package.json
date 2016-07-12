@@ -4,8 +4,9 @@
   "description": "QML plugin for acorn parser",
   "main": "index.js",
   "dependencies": {
+  },
+  "devDependencies": {
     "acorn": "^3.2.0"
   },
-  "devDependencies": {},
   "license": "MIT"
 }

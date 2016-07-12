@@ -1,6 +1,6 @@
 const acorn = require('acorn');
 const fs = require('fs');
-require('./index.js');
+require('./index.js')(acorn);
 
 var comments = [], tokens = [];
 let source;
